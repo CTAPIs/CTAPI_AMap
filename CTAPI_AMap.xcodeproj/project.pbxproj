@@ -14,6 +14,13 @@
 		4AE0F67A2048261B00D285D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0F6792048261B00D285D3 /* Assets.xcassets */; };
 		4AE0F67D2048261B00D285D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0F67B2048261B00D285D3 /* LaunchScreen.storyboard */; };
 		4AE0F6802048261B00D285D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F67F2048261B00D285D3 /* main.m */; };
+		4AE0F6C120482C0600D285D3 /* Target_CTAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6C020482C0600D285D3 /* Target_CTAppContext.m */; };
+		4AE0F6C420482C1800D285D3 /* Target_CTAMapKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6C320482C1800D285D3 /* Target_CTAMapKey.m */; };
+		4AE0F6C92048337700D285D3 /* Target_CTAMapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6C82048337700D285D3 /* Target_CTAMapService.m */; };
+		4AE0F6CC2048339300D285D3 /* CTAMapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6CB2048339300D285D3 /* CTAMapService.m */; };
+		4AE0F6D22048375F00D285D3 /* CTAMapGEOAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6D12048375F00D285D3 /* CTAMapGEOAPIManager.m */; };
+		4AE0F6D72048393C00D285D3 /* GeoCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6D62048393C00D285D3 /* GeoCodeViewController.m */; };
+		4AE0F6DB2048399F00D285D3 /* GeoCodeViewController+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6DA2048399F00D285D3 /* GeoCodeViewController+Params.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,20 @@
 		4AE0F67C2048261B00D285D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AE0F67E2048261B00D285D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AE0F67F2048261B00D285D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AE0F6BF20482C0600D285D3 /* Target_CTAppContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_CTAppContext.h; sourceTree = "<group>"; };
+		4AE0F6C020482C0600D285D3 /* Target_CTAppContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_CTAppContext.m; sourceTree = "<group>"; };
+		4AE0F6C220482C1800D285D3 /* Target_CTAMapKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_CTAMapKey.h; sourceTree = "<group>"; };
+		4AE0F6C320482C1800D285D3 /* Target_CTAMapKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_CTAMapKey.m; sourceTree = "<group>"; };
+		4AE0F6C72048337700D285D3 /* Target_CTAMapService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_CTAMapService.h; sourceTree = "<group>"; };
+		4AE0F6C82048337700D285D3 /* Target_CTAMapService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_CTAMapService.m; sourceTree = "<group>"; };
+		4AE0F6CA2048339300D285D3 /* CTAMapService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAMapService.h; sourceTree = "<group>"; };
+		4AE0F6CB2048339300D285D3 /* CTAMapService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAMapService.m; sourceTree = "<group>"; };
+		4AE0F6D02048375F00D285D3 /* CTAMapGEOAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAMapGEOAPIManager.h; sourceTree = "<group>"; };
+		4AE0F6D12048375F00D285D3 /* CTAMapGEOAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAMapGEOAPIManager.m; sourceTree = "<group>"; };
+		4AE0F6D52048393C00D285D3 /* GeoCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCodeViewController.h; sourceTree = "<group>"; };
+		4AE0F6D62048393C00D285D3 /* GeoCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoCodeViewController.m; sourceTree = "<group>"; };
+		4AE0F6D92048399F00D285D3 /* GeoCodeViewController+Params.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoCodeViewController+Params.h"; sourceTree = "<group>"; };
+		4AE0F6DA2048399F00D285D3 /* GeoCodeViewController+Params.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GeoCodeViewController+Params.m"; sourceTree = "<group>"; };
 		D2B7FB3BDF78EAAD6746C758 /* Pods-CTAPI_AMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAPI_AMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTAPI_AMap/Pods-CTAPI_AMap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,10 +103,12 @@
 		4AE0F66F2048261B00D285D3 /* CTAPI_AMap */ = {
 			isa = PBXGroup;
 			children = (
+				4AE0F6BA20482B7800D285D3 /* CTAPI_AMap */,
 				4AE0F6702048261B00D285D3 /* AppDelegate.h */,
 				4AE0F6712048261B00D285D3 /* AppDelegate.m */,
 				4AE0F6732048261B00D285D3 /* ViewController.h */,
 				4AE0F6742048261B00D285D3 /* ViewController.m */,
+				4AE0F6BB20482B9000D285D3 /* Demo */,
 				4AE0F6762048261B00D285D3 /* Main.storyboard */,
 				4AE0F6792048261B00D285D3 /* Assets.xcassets */,
 				4AE0F67B2048261B00D285D3 /* LaunchScreen.storyboard */,
@@ -93,6 +116,122 @@
 				4AE0F67F2048261B00D285D3 /* main.m */,
 			);
 			path = CTAPI_AMap;
+			sourceTree = "<group>";
+		};
+		4AE0F6BA20482B7800D285D3 /* CTAPI_AMap */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6CD2048375F00D285D3 /* APIManagers */,
+				4AE0F6C52048336600D285D3 /* Target */,
+			);
+			path = CTAPI_AMap;
+			sourceTree = "<group>";
+		};
+		4AE0F6BB20482B9000D285D3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6D32048391400D285D3 /* APIControllers */,
+				4AE0F6BC20482BF000D285D3 /* Target */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		4AE0F6BC20482BF000D285D3 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6BD20482BF000D285D3 /* CTAppContext */,
+				4AE0F6BE20482BF000D285D3 /* Key */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		4AE0F6BD20482BF000D285D3 /* CTAppContext */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6BF20482C0600D285D3 /* Target_CTAppContext.h */,
+				4AE0F6C020482C0600D285D3 /* Target_CTAppContext.m */,
+			);
+			path = CTAppContext;
+			sourceTree = "<group>";
+		};
+		4AE0F6BE20482BF000D285D3 /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6C220482C1800D285D3 /* Target_CTAMapKey.h */,
+				4AE0F6C320482C1800D285D3 /* Target_CTAMapKey.m */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
+		4AE0F6C52048336600D285D3 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6C62048336600D285D3 /* Service */,
+				4AE0F6C72048337700D285D3 /* Target_CTAMapService.h */,
+				4AE0F6C82048337700D285D3 /* Target_CTAMapService.m */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		4AE0F6C62048336600D285D3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6CA2048339300D285D3 /* CTAMapService.h */,
+				4AE0F6CB2048339300D285D3 /* CTAMapService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4AE0F6CD2048375F00D285D3 /* APIManagers */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6CE2048375F00D285D3 /* geocode */,
+			);
+			path = APIManagers;
+			sourceTree = "<group>";
+		};
+		4AE0F6CE2048375F00D285D3 /* geocode */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6CF2048375F00D285D3 /* CTAMapGEOAPIManager */,
+			);
+			path = geocode;
+			sourceTree = "<group>";
+		};
+		4AE0F6CF2048375F00D285D3 /* CTAMapGEOAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6D02048375F00D285D3 /* CTAMapGEOAPIManager.h */,
+				4AE0F6D12048375F00D285D3 /* CTAMapGEOAPIManager.m */,
+			);
+			path = CTAMapGEOAPIManager;
+			sourceTree = "<group>";
+		};
+		4AE0F6D32048391400D285D3 /* APIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6D42048391400D285D3 /* GeoCode */,
+			);
+			path = APIControllers;
+			sourceTree = "<group>";
+		};
+		4AE0F6D42048391400D285D3 /* GeoCode */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6D82048398E00D285D3 /* Params */,
+				4AE0F6D52048393C00D285D3 /* GeoCodeViewController.h */,
+				4AE0F6D62048393C00D285D3 /* GeoCodeViewController.m */,
+			);
+			path = GeoCode;
+			sourceTree = "<group>";
+		};
+		4AE0F6D82048398E00D285D3 /* Params */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6D92048399F00D285D3 /* GeoCodeViewController+Params.h */,
+				4AE0F6DA2048399F00D285D3 /* GeoCodeViewController+Params.m */,
+			);
+			path = Params;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +359,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE0F6CC2048339300D285D3 /* CTAMapService.m in Sources */,
+				4AE0F6C92048337700D285D3 /* Target_CTAMapService.m in Sources */,
+				4AE0F6D72048393C00D285D3 /* GeoCodeViewController.m in Sources */,
 				4AE0F6752048261B00D285D3 /* ViewController.m in Sources */,
+				4AE0F6C420482C1800D285D3 /* Target_CTAMapKey.m in Sources */,
 				4AE0F6802048261B00D285D3 /* main.m in Sources */,
 				4AE0F6722048261B00D285D3 /* AppDelegate.m in Sources */,
+				4AE0F6DB2048399F00D285D3 /* GeoCodeViewController+Params.m in Sources */,
+				4AE0F6D22048375F00D285D3 /* CTAMapGEOAPIManager.m in Sources */,
+				4AE0F6C120482C0600D285D3 /* Target_CTAppContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
