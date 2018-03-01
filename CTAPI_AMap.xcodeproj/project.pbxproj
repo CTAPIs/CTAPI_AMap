@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18FE3D2A530872AC51238502 /* libPods-CTAPI_AMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450700FB7A6B0A3C2264D007 /* libPods-CTAPI_AMap.a */; };
 		4AE0F6722048261B00D285D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6712048261B00D285D3 /* AppDelegate.m */; };
 		4AE0F6752048261B00D285D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6742048261B00D285D3 /* ViewController.m */; };
 		4AE0F6782048261B00D285D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0F6762048261B00D285D3 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43678403FC082254B3A50A98 /* Pods-CTAPI_AMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAPI_AMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTAPI_AMap/Pods-CTAPI_AMap.release.xcconfig"; sourceTree = "<group>"; };
+		450700FB7A6B0A3C2264D007 /* libPods-CTAPI_AMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTAPI_AMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE0F66D2048261B00D285D3 /* CTAPI_AMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTAPI_AMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE0F6702048261B00D285D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AE0F6712048261B00D285D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		4AE0F67C2048261B00D285D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AE0F67E2048261B00D285D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AE0F67F2048261B00D285D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2B7FB3BDF78EAAD6746C758 /* Pods-CTAPI_AMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAPI_AMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTAPI_AMap/Pods-CTAPI_AMap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FE3D2A530872AC51238502 /* libPods-CTAPI_AMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03E6ADD44A2C3DDD8813EBBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2B7FB3BDF78EAAD6746C758 /* Pods-CTAPI_AMap.debug.xcconfig */,
+				43678403FC082254B3A50A98 /* Pods-CTAPI_AMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		15522DE3D9CCA7C3D3EB5EB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				450700FB7A6B0A3C2264D007 /* libPods-CTAPI_AMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AE0F6642048261B00D285D3 = {
 			isa = PBXGroup;
 			children = (
 				4AE0F66F2048261B00D285D3 /* CTAPI_AMap */,
 				4AE0F66E2048261B00D285D3 /* Products */,
+				03E6ADD44A2C3DDD8813EBBE /* Pods */,
+				15522DE3D9CCA7C3D3EB5EB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AE0F6832048261B00D285D3 /* Build configuration list for PBXNativeTarget "CTAPI_AMap" */;
 			buildPhases = (
+				3DE3EAF1B564CF93A1BC3FFE /* [CP] Check Pods Manifest.lock */,
 				4AE0F6692048261B00D285D3 /* Sources */,
 				4AE0F66A2048261B00D285D3 /* Frameworks */,
 				4AE0F66B2048261B00D285D3 /* Resources */,
+				140B4C26072CC681452FA967 /* [CP] Embed Pods Frameworks */,
+				44CC419732C0631B21017499 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		140B4C26072CC681452FA967 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTAPI_AMap/Pods-CTAPI_AMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE3EAF1B564CF93A1BC3FFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTAPI_AMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44CC419732C0631B21017499 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTAPI_AMap/Pods-CTAPI_AMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AE0F6692048261B00D285D3 /* Sources */ = {
@@ -276,6 +354,7 @@
 		};
 		4AE0F6842048261B00D285D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B7FB3BDF78EAAD6746C758 /* Pods-CTAPI_AMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +368,7 @@
 		};
 		4AE0F6852048261B00D285D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43678403FC082254B3A50A98 /* Pods-CTAPI_AMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
