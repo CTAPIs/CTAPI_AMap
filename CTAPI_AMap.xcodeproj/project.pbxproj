@@ -11,6 +11,7 @@
 		4AA897F02049122B00771D58 /* CTAMapAssistantInputTipsAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA897EF2049122B00771D58 /* CTAMapAssistantInputTipsAPIManager.m */; };
 		4AA897F52049176100771D58 /* AssistantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA897F42049176100771D58 /* AssistantViewController.m */; };
 		4AA897F82049179000771D58 /* AssistantViewController+Assistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA897F72049179000771D58 /* AssistantViewController+Assistant.m */; };
+		4AA8980E204933DC00771D58 /* CTAMapRegeoAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA8980C204933DC00771D58 /* CTAMapRegeoAPIManager.m */; };
 		4AE0F6722048261B00D285D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6712048261B00D285D3 /* AppDelegate.m */; };
 		4AE0F6752048261B00D285D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6742048261B00D285D3 /* ViewController.m */; };
 		4AE0F6782048261B00D285D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0F6762048261B00D285D3 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 		4AA897F42049176100771D58 /* AssistantViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssistantViewController.m; sourceTree = "<group>"; };
 		4AA897F62049179000771D58 /* AssistantViewController+Assistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssistantViewController+Assistant.h"; sourceTree = "<group>"; };
 		4AA897F72049179000771D58 /* AssistantViewController+Assistant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AssistantViewController+Assistant.m"; sourceTree = "<group>"; };
+		4AA8980C204933DC00771D58 /* CTAMapRegeoAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAMapRegeoAPIManager.m; sourceTree = "<group>"; };
+		4AA8980D204933DC00771D58 /* CTAMapRegeoAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAMapRegeoAPIManager.h; sourceTree = "<group>"; };
 		4AE0F66D2048261B00D285D3 /* CTAPI_AMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTAPI_AMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE0F6702048261B00D285D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AE0F6712048261B00D285D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +128,15 @@
 				4AA897F72049179000771D58 /* AssistantViewController+Assistant.m */,
 			);
 			path = Params;
+			sourceTree = "<group>";
+		};
+		4AA8980B204933DC00771D58 /* CTAPIAMapRegeoAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				4AA8980C204933DC00771D58 /* CTAMapRegeoAPIManager.m */,
+				4AA8980D204933DC00771D58 /* CTAMapRegeoAPIManager.h */,
+			);
+			path = CTAPIAMapRegeoAPIManager;
 			sourceTree = "<group>";
 		};
 		4AE0F6642048261B00D285D3 = {
@@ -239,6 +251,7 @@
 		4AE0F6CE2048375F00D285D3 /* geocode */ = {
 			isa = PBXGroup;
 			children = (
+				4AA8980B204933DC00771D58 /* CTAPIAMapRegeoAPIManager */,
 				4AE0F6CF2048375F00D285D3 /* CTAMapGEOAPIManager */,
 			);
 			path = geocode;
@@ -416,6 +429,7 @@
 				4AE0F6802048261B00D285D3 /* main.m in Sources */,
 				4AE0F6722048261B00D285D3 /* AppDelegate.m in Sources */,
 				4AE0F6DB2048399F00D285D3 /* GeoCodeViewController+Params.m in Sources */,
+				4AA8980E204933DC00771D58 /* CTAMapRegeoAPIManager.m in Sources */,
 				4AE0F6D22048375F00D285D3 /* CTAMapGEOAPIManager.m in Sources */,
 				4AE0F6C120482C0600D285D3 /* Target_CTAppContext.m in Sources */,
 				4AA897F82049179000771D58 /* AssistantViewController+Assistant.m in Sources */,

@@ -18,4 +18,12 @@
              };
 }
 
+- (NSDictionary *)regeoParams
+{
+    return @{
+             kCTAMapRegeoAPIManagerRequiredParamKeyLat:@"31.23",
+             kCTAMapRegeoAPIManagerRequiredParamKeyLng:@(121.48)
+             };
+}
+
 @end
