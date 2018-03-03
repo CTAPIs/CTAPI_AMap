@@ -77,6 +77,9 @@ NSString * const kCTAMapAssistantInputTipsAPIManagerOptionalParamKeyIsLimitToCit
 
 - (CTAPIManagerErrorType)manager:(CTAPIBaseManager *)manager isCorrectWithCallBackData:(NSDictionary *)data
 {
+    if ([data[@"tips"] isKindOfClass:[NSArray class]] == NO || [data[@"tips"] count] == 0) {
+        return CTAPIManagerErrorTypeNoContent;
+    }
     return CTAPIManagerErrorTypeNoError;
 }
 

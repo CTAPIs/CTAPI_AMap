@@ -67,6 +67,9 @@ NSString * const kCTAMapGEOAPIManagerRequiredParamKeyCityName = @"city";
 
 - (CTAPIManagerErrorType)manager:(CTAPIBaseManager *)manager isCorrectWithCallBackData:(NSDictionary *)data
 {
+    if ([data[@"geocodes"] isKindOfClass:[NSArray class]] == NO || [data[@"geocodes"] count] == 0) {
+        return CTAPIManagerErrorTypeNoContent;
+    }
     return CTAPIManagerErrorTypeNoError;
 }
 

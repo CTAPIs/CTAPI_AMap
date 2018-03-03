@@ -69,6 +69,9 @@ NSString * const kCTAMapRegeoAPIManagerRequiredParamKeyLng = @"kCTAMapRegeoAPIMa
 
 - (CTAPIManagerErrorType)manager:(CTAPIBaseManager *)manager isCorrectWithCallBackData:(NSDictionary *)data
 {
+    if (data[@"regeocode"][@"addressComponent"][@"district"] == nil) {
+        return CTAPIManagerErrorTypeNoContent;
+    }
     return CTAPIManagerErrorTypeNoError;
 }
 
