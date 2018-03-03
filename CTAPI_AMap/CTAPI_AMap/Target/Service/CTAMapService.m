@@ -33,6 +33,8 @@ NSString * const CTServiceIdentifierAMap = @"CTAMapService";
                                                                            URLString:urlString
                                                                           parameters:finalParams
                                                                                error:nil];
+        request.originRequestParams = params;
+        request.actualRequestParams = params;
         return request;
     }
     

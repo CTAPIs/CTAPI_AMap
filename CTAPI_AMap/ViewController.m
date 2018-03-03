@@ -12,6 +12,7 @@
 #import <HandyFrame/UIView+LayoutMethods.h>
 
 #import "GeoCodeViewController.h"
+#import "AssistantViewController.h"
 
 NSString * kViewControllerCellIdentifier = @"kViewControllerCellIdentifier";
 NSString * kViewControllerDataSourceKeyTitle = @"kViewControllerDataSourceKeyTitle";
@@ -129,6 +130,10 @@ NSString * kViewControllerDataSourceKeyClass = @"kViewControllerDataSourceKeyCla
                         @{
                             kViewControllerDataSourceKeyTitle:@"geo编码",
                             kViewControllerDataSourceKeyClass:[GeoCodeViewController class]
+                            },
+                        @{
+                            kViewControllerDataSourceKeyTitle:@"辅助",
+                            kViewControllerDataSourceKeyClass:[AssistantViewController class]
                             },
                         ];
     }

@@ -21,6 +21,9 @@
     if ([manager isKindOfClass:[CTAMapGEOAPIManager class]]) {
         return [self geoParams];
     }
+    if ([manager isKindOfClass:[CTAMapRegeoAPIManager class]]) {
+        return [self regeoParams];
+    }
     return nil;
 }
 
@@ -30,6 +33,10 @@
              @{
                  kBaseAPIViewControllerDataSourceTitle:@"地点转坐标",
                  kBaseAPIViewControllerDataSourceClass:[CTAMapGEOAPIManager class]
+                 },
+             @{
+                 kBaseAPIViewControllerDataSourceTitle:@"坐标转地点",
+                 kBaseAPIViewControllerDataSourceClass:[CTAMapRegeoAPIManager class]
                  },
              ];
 }

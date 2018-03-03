@@ -12,7 +12,7 @@
 
 - (NSString *)Action_key:(NSDictionary *)params
 {
-    return @"";
+    return @"your AMap key";
 }
 
 @end

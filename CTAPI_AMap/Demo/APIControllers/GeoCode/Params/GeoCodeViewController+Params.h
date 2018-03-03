@@ -8,9 +8,11 @@
 
 #import "GeoCodeViewController.h"
 #import "CTAMapGEOAPIManager.h"
+#import "CTAMapRegeoAPIManager.h"
 
 @interface GeoCodeViewController (Params)
 
 - (NSDictionary *)geoParams;
+- (NSDictionary *)regeoParams;
 
 @end
