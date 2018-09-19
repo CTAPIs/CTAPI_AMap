@@ -41,14 +41,11 @@ NSString * const CTServiceIdentifierAMap = @"CTAMapService";
     return nil;
 }
 
-- (NSDictionary *)resultWithResponseData:(NSData *)responseData response:(NSURLResponse *)response request:(NSURLRequest *)request error:(NSError **)error
-{
-    NSMutableDictionary *result = [[NSMutableDictionary alloc] init];
-    result[kCTApiProxyValidateResultKeyResponseData] = responseData;
-    result[kCTApiProxyValidateResultKeyResponseJSONString] = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-    result[kCTApiProxyValidateResultKeyResponseJSONObject] = [NSJSONSerialization JSONObjectWithData:responseData options:0 error:NULL];
-    return result;
+- (NSDictionary *)resultWithResponseObject:(id)responseObject response:(NSURLResponse *)response request:(NSURLRequest *)request error:(NSError *__autoreleasing *)error {
+    // handle the result from response
+    return nil;
 }
+
 
 #pragma mark - getters and setters
 - (NSString *)baseURL
